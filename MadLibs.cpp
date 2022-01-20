@@ -2,13 +2,14 @@
 #include <string>
 
 int main()
-{
+{   
+    std::cout << "Let's play a Madlibs game. Everytime, please input one word. However, if you would like input two words or more words on each input, please no space between words. \n";
     std::cout << "Please give me a holiday: ";
     std::string holiday;
     std::cin >> holiday;
 
     std::cout << "Please give me a noun: ";
-    std::string noun   ;
+    std::string noun;
     std::cin >> noun;
 
     std::cout << "Please give me a place: ";
